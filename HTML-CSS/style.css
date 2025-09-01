@@ -1,0 +1,52 @@
+/* -------- RESET BÁSICO -------- */
+* {
+  margin: 0;        /* Remove margens padrão */
+  padding: 0;       /* Remove espaçamentos internos padrão */
+  box-sizing: border-box; /* Inclui bordas e padding no cálculo do tamanho */
+}
+
+/* -------- ESTILOS GERAIS -------- */
+body {
+  font-family: Arial, sans-serif;   /* Define a fonte usada na página */
+  background-color: #f2f2f2;        /* Cor de fundo da página */
+  color: #333;                      /* Cor do texto */
+  line-height: 1.6;                 /* Altura entre linhas */
+  padding: 20px;
+}
+
+/* -------- CABEÇALHO -------- */
+header {
+  background-color: #4CAF50;        /* Cor de fundo do cabeçalho */
+  color: white;                     /* Cor do texto no cabeçalho */
+  padding: 20px;                    /* Espaço interno */
+  text-align: center;              /* Centraliza o texto */
+}
+
+/* -------- PARÁGRAFOS -------- */
+p {
+  margin-bottom: 15px;              /* Espaço abaixo de cada parágrafo */
+  font-size: 1rem;                  /* Tamanho da fonte (1rem = 16px por padrão) */
+}
+
+/* -------- BOTÕES -------- */
+button {
+  background-color: #2196F3;        /* Cor de fundo do botão */
+  color: white;                     /* Cor do texto */
+  border: none;                     /* Remove a borda padrão */
+  padding: 10px 20px;               /* Espaço interno vertical e horizontal */
+  border-radius: 5px;               /* Arredonda as bordas */
+  cursor: pointer;                  /* Muda o cursor ao passar por cima */
+  transition: background-color 0.3s ease; /* Animação suave na cor de fundo */
+}
+
+button:hover {
+  background-color: #0b7dda;        /* Cor ao passar o mouse (hover) */
+}
+
+/* -------- RODAPÉ -------- */
+footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #666;
+}
